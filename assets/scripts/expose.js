@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', init);
 function init() {
   
   const hornSelector = document.getElementById("horn-select");
-  const image = document.querySelector('img[alt="No image selected"]');
+  const image = document.querySelector('#expose img');
   const audio = document.querySelector('#expose audio');
   const playButton = document.querySelector('#expose button');
   const volumeRange = document.getElementById("volume");
